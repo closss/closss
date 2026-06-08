@@ -101,16 +101,18 @@
     <text class="sans" x="0" y="72" fill="#F8FAFC" font-size="70" font-weight="800">quiet systems,</text>
     <text class="sans" x="0" y="148" fill="#F8FAFC" font-size="70" font-weight="800">sharp interfaces.</text>
     <rect x="2" y="184" width="560" height="1" fill="url(#line)" opacity="0.72"/>
-    <text class="mono" x="0" y="232" fill="#CBD5E1" font-size="22">AI tools / visual computing / clean engineering</text>
+    <text class="mono" x="0" y="232" fill="#CBD5E1" font-size="22">VLM / LLM / KV Cache / TTS / 3D Reasoning</text>
   </g>
-  <g class="mono" font-size="15">
-    <rect x="76" y="340" width="108" height="32" rx="16" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.38"/>
-    <text x="99" y="361" fill="#BAE6FD">TypeScript</text>
-    <rect x="196" y="340" width="86" height="32" rx="16" fill="#0F172A" stroke="#34D399" stroke-opacity="0.38"/>
-    <text x="220" y="361" fill="#BBF7D0">Python</text>
-    <rect x="294" y="340" width="90" height="32" rx="16" fill="#0F172A" stroke="#A78BFA" stroke-opacity="0.38"/>
-    <text x="318" y="361" fill="#DDD6FE">Three.js</text>
-    <rect x="396" y="340" width="68" height="32" rx="16" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.38"/>
-    <text x="421" y="361" fill="#BAE6FD">LLM</text>
+  <g class="mono" font-size="15" text-anchor="middle" dominant-baseline="middle">
+    <rect x="76" y="340" width="70" height="34" rx="17" fill="#0F172A" stroke="#22D3EE" stroke-opacity="0.42"/>
+    <text x="111" y="357" fill="#BAE6FD">VLM</text>
+    <rect x="158" y="340" width="70" height="34" rx="17" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.42"/>
+    <text x="193" y="357" fill="#BAE6FD">LLM</text>
+    <rect x="240" y="340" width="104" height="34" rx="17" fill="#0F172A" stroke="#34D399" stroke-opacity="0.42"/>
+    <text x="292" y="357" fill="#BBF7D0">KV Cache</text>
+    <rect x="356" y="340" width="70" height="34" rx="17" fill="#0F172A" stroke="#A78BFA" stroke-opacity="0.42"/>
+    <text x="391" y="357" fill="#DDD6FE">TTS</text>
+    <rect x="438" y="340" width="138" height="34" rx="17" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.42"/>
+    <text x="507" y="357" fill="#BAE6FD">3D Reasoning</text>
   </g>
 </svg>

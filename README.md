@@ -5,35 +5,12 @@
 <h1 align="center">athamas huang / closss</h1>
 
 <p align="center">
-  <strong>Building calm tools for AI workflows, visual systems, and developer surfaces.</strong>
+  <strong>Exploring multimodal intelligence, low-latency inference, and 3D reasoning systems.</strong>
 </p>
 
 <p align="center">
-  <code>TypeScript</code>&nbsp;&nbsp;
-  <code>Python</code>&nbsp;&nbsp;
-  <code>Three.js</code>&nbsp;&nbsp;
-  <code>Astro</code>&nbsp;&nbsp;
-  <code>LLM</code>&nbsp;&nbsp;
-  <code>MCP</code>
+  VLM&nbsp;&nbsp;/&nbsp;&nbsp;LLM&nbsp;&nbsp;/&nbsp;&nbsp;KV Cache&nbsp;&nbsp;/&nbsp;&nbsp;TTS&nbsp;&nbsp;/&nbsp;&nbsp;3D Reasoning
 </p>
-
-<br />
-
-```txt
-focus        AI-native tools, visual computing, clean interfaces
-style        small surface area, strong defaults, reversible systems
-location     Los Angeles
-```
-
-<br />
-
-<div align="center">
-  <a href="https://github.com/closss/visual-solar-system">visual-solar-system</a>
-  <span>&nbsp;/&nbsp;</span>
-  <a href="https://github.com/closss/WhereIsMyLLM">WhereIsMyLLM</a>
-  <span>&nbsp;/&nbsp;</span>
-  <a href="https://github.com/closss/echo">echo</a>
-</div>
 
 <br />
 
