@@ -1,0 +1,123 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="clos — ai researcher banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBF8F2"/>
+      <stop offset="0.5" stop-color="#F5F0E6"/>
+      <stop offset="1" stop-color="#F7F2E9"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(955 210) rotate(90) scale(290)">
+      <stop stop-color="#D97757" stop-opacity="0.18"/>
+      <stop offset="0.5" stop-color="#C2674B" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#F7F2E9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(955 210) rotate(90) scale(70)">
+      <stop stop-color="#E89B7E"/>
+      <stop offset="0.35" stop-color="#D97757"/>
+      <stop offset="1" stop-color="#D97757" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="120" y1="120" x2="980" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C2674B"/>
+      <stop offset="0.55" stop-color="#CC785C"/>
+      <stop offset="1" stop-color="#9A8463"/>
+    </linearGradient>
+    <linearGradient id="name" x1="84" y1="150" x2="420" y2="205" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#211C16"/>
+      <stop offset="1" stop-color="#544A40"/>
+    </linearGradient>
+    <filter id="soft" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.1" fill="#5B4F40" fill-opacity="0.08"/>
+    </pattern>
+    <style>
+      @keyframes flow { to { stroke-dashoffset: -240; } }
+      @keyframes breathe { 0%,100% { opacity:.5; transform:scale(1); } 50% { opacity:.92; transform:scale(1.06); } }
+      @keyframes twinkle { 0%,100% { opacity:.45; } 50% { opacity:1; } }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      @keyframes float { 0%,100% { transform: translateY(0); } 50% { transform: translateY(-9px); } }
+      @keyframes fade  { from { opacity:0; transform: translateX(-10px); } to { opacity:1; transform: translateX(0); } }
+      .flow  { stroke-dasharray: 5 11; animation: flow 3.2s linear infinite; }
+      .flow2 { stroke-dasharray: 4 13; animation: flow 4.6s linear infinite; }
+      .core  { transform-box: fill-box; transform-origin: center; animation: breathe 5.5s ease-in-out infinite; }
+      .twk   { animation: twinkle 4s ease-in-out infinite; }
+      .ring  { transform-box: fill-box; transform-origin: center; animation: spin 26s linear infinite; }
+      .ring2 { transform-box: fill-box; transform-origin: center; animation: spin 38s linear infinite reverse; }
+      .field { animation: float 9s ease-in-out infinite; }
+      /* opacity:1 base keeps text visible on non-animating renderers; fade is a progressive enhancement */
+      .reveal{ opacity:1; animation: fade 1s ease-out both; }
+      .mono  { font-family: ui-monospace, "SF Mono", SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .sans  { font-family: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+      .serif { font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, "Times New Roman", serif; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="url(#dots)"/>
+  <rect width="1280" height="420" fill="url(#aura)"/>
+
+  <!-- ============ multimodal constellation ============ -->
+  <g class="field">
+    <!-- orbit rings -->
+    <g opacity="0.6">
+      <ellipse class="ring"  cx="955" cy="210" rx="196" ry="78" stroke="url(#stroke)" stroke-opacity="0.40" stroke-width="1" transform="rotate(-16 955 210)"/>
+      <ellipse class="ring2" cx="955" cy="210" rx="150" ry="150" stroke="#9A8463" stroke-opacity="0.22" stroke-width="1"/>
+    </g>
+
+    <!-- connections: modalities -> core -->
+    <g fill="none" stroke-linecap="round">
+      <path class="flow"  d="M812 116 C 870 150, 905 175, 952 206" stroke="url(#stroke)" stroke-opacity="0.85" stroke-width="1.6"/>
+      <path class="flow2" d="M1118 120 C 1050 150, 1010 174, 960 205" stroke="url(#stroke)" stroke-opacity="0.75" stroke-width="1.6"/>
+      <path class="flow2" d="M806 312 C 868 280, 906 248, 950 216" stroke="url(#stroke)" stroke-opacity="0.75" stroke-width="1.6"/>
+      <path class="flow"  d="M1120 304 C 1052 274, 1012 244, 962 215" stroke="url(#stroke)" stroke-opacity="0.85" stroke-width="1.6"/>
+    </g>
+
+    <!-- core -->
+    <circle cx="955" cy="210" r="60" fill="url(#core)" filter="url(#soft)" class="core"/>
+    <circle cx="955" cy="210" r="10" fill="#A84B30"/>
+    <circle cx="955" cy="210" r="19" fill="none" stroke="#C2674B" stroke-opacity="0.55" stroke-width="1.2"/>
+
+    <!-- modality nodes (muted scientific palette) -->
+    <g class="mono" font-size="12.5" fill="#6B6258">
+      <g class="twk" style="animation-delay:0s">
+        <circle cx="812" cy="116" r="5.5" fill="#C0573D"/>
+        <circle cx="812" cy="116" r="11" fill="none" stroke="#C0573D" stroke-opacity="0.4"/>
+        <text x="812" y="96" text-anchor="middle">vision</text>
+      </g>
+      <g class="twk" style="animation-delay:1s">
+        <circle cx="1118" cy="120" r="5.5" fill="#45618C"/>
+        <circle cx="1118" cy="120" r="11" fill="none" stroke="#45618C" stroke-opacity="0.4"/>
+        <text x="1118" y="100" text-anchor="middle">language</text>
+      </g>
+      <g class="twk" style="animation-delay:2s">
+        <circle cx="806" cy="312" r="5.5" fill="#2F8E7C"/>
+        <circle cx="806" cy="312" r="11" fill="none" stroke="#2F8E7C" stroke-opacity="0.4"/>
+        <text x="806" y="334" text-anchor="middle">audio</text>
+      </g>
+      <g class="twk" style="animation-delay:3s">
+        <circle cx="1120" cy="304" r="5.5" fill="#B07A3C"/>
+        <circle cx="1120" cy="304" r="11" fill="none" stroke="#B07A3C" stroke-opacity="0.4"/>
+        <text x="1120" y="326" text-anchor="middle">3d</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ============ typography ============ -->
+  <g class="reveal" style="animation-delay:.05s">
+    <text class="mono" x="84" y="120" fill="#C2674B" font-size="15" letter-spacing="3">~/ closss</text>
+  </g>
+  <g class="reveal" style="animation-delay:.18s">
+    <text class="serif" x="82" y="198" fill="url(#name)" font-size="80" font-weight="600" letter-spacing="0.5">clos</text>
+  </g>
+  <g class="reveal" style="animation-delay:.32s">
+    <text class="sans" x="84" y="240" fill="#6B6258" font-size="20" font-weight="400">ai researcher · multimodal intelligence</text>
+  </g>
+
+  <g class="reveal" style="animation-delay:.46s">
+    <rect x="84" y="276" width="470" height="1.4" fill="url(#stroke)" opacity="0.6"/>
+    <text class="mono" x="84" y="312" fill="#3A332B" font-size="15" letter-spacing="1">
+      VLM<tspan fill="#B79C73"> · </tspan>post-training<tspan fill="#B79C73"> · </tspan>RL<tspan fill="#B79C73"> · </tspan>KV cache<tspan fill="#B79C73"> · </tspan>TTS<tspan fill="#B79C73"> · </tspan>3D
+    </text>
+    <text class="mono" x="84" y="344" fill="#8A8377" font-size="13.5" letter-spacing="0.5">teaching models to see, speak, and reason.</text>
+  </g>
+</svg>
