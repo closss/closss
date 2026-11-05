@@ -1,7 +1,4 @@
-<!-- ╭──────────────────────────────────────────────────────────────╮ -->
-<!-- │  closss · github profile                                       │ -->
-<!-- │  edit the links / placeholders marked with  <!-- TODO -->      │ -->
-<!-- ╰──────────────────────────────────────────────────────────────╯ -->
+
 
 <p align="center">
   <img src="./assets/hero.svg" alt="clos — ai researcher" width="100%" />
